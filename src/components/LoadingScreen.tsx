@@ -120,6 +120,14 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
             <span className="terminal-cursor ml-1" />
           </div>
 
+          <div className="flex justify-center">
+            <img
+              src="https://i.ibb.co/sdj4s4df/LINKEDIN-PIC.jpg"
+              alt="LinkedIn profile"
+              className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover border border-cyan-400/30 shadow-lg shadow-cyan-500/10"
+            />
+          </div>
+
           {/* Code Loading steps */}
           <div className="space-y-1.5 h-36 overflow-y-auto text-xs text-slate-400 scrollbar-none">
             {logs.map((log, index) => (
